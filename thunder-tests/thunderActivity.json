@@ -33,12 +33,17 @@
         "containerId": "",
         "name": "http://127.0.0.1:8000/api/annonces",
         "url": "http://127.0.0.1:8000/api/annonces",
-        "method": "GET",
+        "method": "POST",
         "sortNum": 0,
         "created": "2023-07-26T10:21:51.115Z",
-        "modified": "2023-07-26T10:21:51.115Z",
+        "modified": "2023-07-27T23:03:16.530Z",
         "headers": [],
         "params": [],
+        "body": {
+            "type": "json",
+            "raw": "\n {\n  \"description\": \"Test annonce\",\n  \"categories\": \"Test\",\n  \"date\": \"2023-07-27T22:19:19.486Z\",\n  \"status\": \"en cours\",\n  \"photos\": \"https://example.com/image.jpg\",\n  \"utilisateur\":{\n    \"nom\": \"htrht\",\n    \"adresse\": \"gdffg\",\n    \"email\": \"bgfbf\",\n    \"telephone\": \"gbfg\",\n    \"role\": \"gbfbfg\"},\n  \"titre\": \"Nouvelle annonce\"\n}",
+            "form": []
+        },
         "tests": []
     },
     {

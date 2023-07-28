@@ -34,7 +34,7 @@ class Annonce
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $photos = null;
 
-    #[ORM\ManyToOne(inversedBy: 'utilisateur',cascade:["remove"])]
+    #[ORM\ManyToOne(inversedBy: 'utilisateur',cascade:["remove", "persist"])]
     #[ORM\JoinColumn(nullable: false)]
     private ?Utilisateur $utilisateur = null;
 
